@@ -1,0 +1,12 @@
+Flask
+Flask-CORS
+Gunicorn
+pyzipcode
+zipcodes
+geopy
+pandas
+scikit-learn
+
+--index-url https://download.pytorch.org/whl/cu118
+--extra-index-url=https://pypi.org/simple
+torch
