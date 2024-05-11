@@ -17,7 +17,7 @@ import { MdGpsFixed } from "react-icons/md";
 let autoComplete1;
 let autoComplete2;
 
-const REACT_APP_GOOGLE_MAPS_KEY = "AIzaSyAVsncCwLE96YCjIGZAcVOcOyH-p7FN35E";
+// const REACT_APP_GOOGLE_MAPS_KEY = "AIzaSyAVsncCwLE96YCjIGZAcVOcOyH-p7FN35E";
 
 // const loadScript = (url, callback) => {
 //   let script = document.createElement("script");

@@ -2,7 +2,7 @@ import { Box, HStack } from "@chakra-ui/react";
 import Map from "./MapComponent";
 import { Stack } from "react-bootstrap";
 
-const googleMapsApiKey = "AIzaSyAVsncCwLE96YCjIGZAcVOcOyH-p7FN35E";
+// const googleMapsApiKey = ;
 
 const MapDisplay = ({ mapDetails }) => {
   const places = mapDetails.map((stop) => ({
@@ -25,7 +25,7 @@ const MapDisplay = ({ mapDetails }) => {
         </Box>
         <Box flex={3}>
           <Map
-            googleMapURL={`https://maps.googleapis.com/maps/api/js?key=${googleMapsApiKey}&libraries=geometry,drawing,places`}
+            googleMapURL={`https://maps.googleapis.com/maps/api/js?key=${process.env.REACT_APP_GOOGLE_MAPS_API_KEY}&libraries=geometry,drawing,places`}
             markers={places}
             loadingElement={<div style={{ height: `100%` }} />}
             containerElement={<div style={{ height: "80vh" }} />}
