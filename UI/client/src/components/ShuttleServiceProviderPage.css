@@ -1,0 +1,43 @@
+.shuttle-service-provider-page {
+  display: flex;
+  background-color: black;
+  color: white;
+}
+
+.tab-container {
+  width: 100px; /* Adjust the width of the tab container as needed */
+}
+
+.tabs {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tab {
+  padding: 15px;
+  cursor: pointer;
+  background-color: black;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+.tab:hover {
+  background-color: #f2f2f2;
+}
+
+.tab.active {
+  background-color: white;
+  color: black;
+}
+
+.divider {
+  width: 1px;
+  height: 100%; /* Make the divider span the full height */
+  background-color: #ddd;
+}
+
+.content-container {
+  flex-grow: 1;
+  padding: 20px;
+}
