@@ -1,6 +1,6 @@
-ollow the below steps to start the project:
+# Follow the below steps to start the project:
 
-Starting the Backend Server:
+## Starting the Backend Server:
 
 1. Create a .env file in the path **CMPE295/UI/server**
 2. Please paste the following lines in the created .env file, and fill in the all the corresponding credentials:
@@ -25,7 +25,7 @@ Starting the Backend Server:
    ```
 
 
-Staring the Frontend Application:
+## Staring the Frontend Application:
 
 1. Create a .env file in the path **CMPE295/UI/client**
 2. Please pathe the following lines in the created .env file, and fill in all the corresponding credentials:
